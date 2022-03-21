@@ -1,0 +1,33 @@
+{
+    "name": "rick1906/megabike-templates",
+    "type": "library",
+    "description": "Templates for PHP-generated pages",
+    "keywords": [
+        "templates"
+    ],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rick",
+            "email": "rick-san@mail.ru",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "rick1906/megabike-common": "*",
+        "rick1906/megabike-utils": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "megabike\\templates\\": "classes/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+    }
+}
