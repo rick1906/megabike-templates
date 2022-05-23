@@ -42,7 +42,7 @@ class HtmlTagOpenMode extends DefaultMode
             'exitClose' => '/\/\>/',
             $this->getCodeEventsData(),
             'nextTag' => '/\</',
-            'attr' => '/[^\s=\\\\]+/i',
+            'attr' => '/[^\s\>=\\\\]+/i',
         );
     }
 
